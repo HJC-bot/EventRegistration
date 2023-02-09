@@ -15,7 +15,7 @@ namespace EventRegistration.Shared.Domain
 
 
         [Required]
-        [StringLength(100, MinimumLength = 2, ErrorMessage = "Address  does not meet length requirements")]
+        [StringLength(100, MinimumLength = 2, ErrorMessage = "Address does not meet length requirements")]
         public string Venueaddress { get; set; }
 
 
